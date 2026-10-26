@@ -9,9 +9,9 @@ public class Main {
 	{
 		Scanner sc = new Scanner(System.in);
 		
-        System.out.print("Escribe algo: ");
-        String texto = sc.nextLine();
-        System.out.println("Has escrito: " + texto);
+        System.out.print("¿Cómo te llamas? ");
+        String nombre = sc.nextLine();
+        System.out.println("Hola, " + nombre + "!");
 		
 		sc.close();
 
